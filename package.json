@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ryd0rz/db-migrate-mssql.git"
+        "url": "https://github.com/sirio3mil/db-migrate-mssql.git"
     },
     "keywords": [
         "db-migrate",
@@ -21,9 +21,10 @@
         "migrator",
         "driver"
     ],
-    "author": "ryd0rz",
+    "author": "sirio3mil",
     "contributors": [
-        "christiaanwesterbeek"
+        "christiaanwesterbeek",
+        "ryd0rz"
     ],
     "license": "MIT",
     "bugs": {
@@ -31,18 +32,12 @@
     },
     "homepage": "https://github.com/ryd0rz/db-migrate-mssql",
     "dependencies": {
-        "bluebird": "^3.5.4",
-        "db-migrate-base": "^1.6.3",
-        "mssql": "6.0.0-beta.1"
+        "db-migrate-base": "^2.3.1",
+        "mssql": "^8.0.2"
     },
     "devDependencies": {
         "db-meta": "^0.5.1",
         "db-migrate-shared": "^1.2.0",
-        "eslint": "5.16.0",
-        "eslint-config-standard": "12.0.0",
-        "eslint-plugin-import": "2.17.0",
-        "eslint-plugin-node": "8.0.1",
-        "eslint-plugin-promise": "4.1.1",
-        "eslint-plugin-standard": "4.0.0"
+        "eslint": "^8.9.0"
     }
 }
